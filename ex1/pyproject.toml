@@ -2,6 +2,7 @@
 name = "matrix"
 version = "0.1.0"
 description = "Matrix data analysis"
+package-mode = false
 authors = ["Edmond"]
 
 [tool.poetry.dependencies]

@@ -42,7 +42,7 @@ def main() -> None:
         print()
         print("Or install with Poetry:")
         print("poetry install")
-        print("poetry run python loading.py")
+        print("poetry run python3 loading.py")
         sys.exit(1)
 
     print("\npip vs Poetry:")
@@ -51,9 +51,9 @@ def main() -> None:
 
     print("\nAnalyzing Matrix data...")
 
+    import numpy as np
     import pandas as pd  # type: ignore[import-untyped]
-    import numpy as np  # type: ignore[import-not-found]
-    import matplotlib.pyplot as plt  # type: ignore[import-not-found]
+    import matplotlib.pyplot as plt  # type: ignore[import-untyped]
 
     print("Processing 1000 data points...")
     data = np.random.randn(1000)
